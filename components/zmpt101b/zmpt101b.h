@@ -1,7 +1,7 @@
 #include "esphome.h"
 
 namespace esphome {
-namespace zmpt101b_sensor {
+namespace zmpt101b {
 
 class ZMPT101BComponent : public PollingComponent, public sensor::Sensor {
  public:
@@ -36,5 +36,5 @@ class ZMPT101BComponent : public PollingComponent, public sensor::Sensor {
   int pin_;
 };
 
-}  // namespace zmpt101b_sensor
+}  // namespace zmpt101b
 }  // namespace esphome
