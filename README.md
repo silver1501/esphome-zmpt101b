@@ -41,7 +41,7 @@ sensor:
 external_components:
   - source: ${external_components_source}
     refresh: 0s
-  - source: github://ВАШ_КОРИСТУВАЧ/esphome-zmpt101b
+  - source: github://silver1501/esphome-zmpt101b
     refresh: 0s
 
 sensor:
